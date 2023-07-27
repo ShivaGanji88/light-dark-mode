@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.button-text {
+  width: 100px;
+  height: 40px;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+  border: #ffffff solid 1px;
+}
